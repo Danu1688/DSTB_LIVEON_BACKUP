@@ -77,3 +77,120 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-do.sshpremium.my.id
+- name: danu01_LiveCtn
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: d1030ea7-170a-46a2-8e50-6c571023ea69
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danu03_LiveCtn
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: f9cf63ae-939e-43b3-92cd-2caaed884713
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danu05_LiveCtn
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 1bc16d94-7cff-457f-8331-56773bf84f74
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danu07_LiveCth
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 903f3018-7c57-4658-9e04-f59bc7210cb2
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danu09_LiveCth
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 9afe2de2-b910-4879-ac4e-b15acf3345e0
+  udp: true
+  sni: sg-cth.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-cth.sshpremium.my.id
+- name: danu11_LiveIKD
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 81b6c9dc-a684-4a89-9b99-2a8918733000
+  udp: true
+  sni: ikd.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ikd.sshpremium.my.id
+- name: danu13_LiveCth
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 1789410a-eede-4fbd-af1d-abc2f65fe3b5
+  udp: true
+  sni: sg-cth.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-cth.sshpremium.my.id
+- name: danu15_LiveDo
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 74e09226-f378-43f6-8f40-0a99d9cbab6b
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id
+- name: danu17_LiveDo
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id
