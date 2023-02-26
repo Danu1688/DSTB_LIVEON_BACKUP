@@ -12,45 +12,6 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: DanuJuragan01_LiveONBizzNet_A
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
-  udp: true
-  sni: trojanws-biz2.vpsme.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sweetws
-    headers:
-      Host: trojanws-biz2.vpsme.my.id
-- name: DanuJuragan02_LiveONMelbi_A
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: b375334f-3b57-4804-bcd1-bb24be571293
-  udp: true
-  sni: trojanws-melbi1.vpsme.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sweetws
-    headers:
-      Host: trojanws-melbi1.vpsme.my.id
-- name: danuWs10_LiveONContabo_A
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: f9f60cb6-22e3-4629-8ab5-5230ee38ec8b
-  udp: true
-  sni: sg-ctn.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-ctn.sshpremium.my.id
 - name: danuWs11_LiveONContabo_A
   type: trojan
   server: beacon.liveon.id
