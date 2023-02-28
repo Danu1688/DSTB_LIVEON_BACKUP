@@ -1,5 +1,5 @@
 proxies:
-- name: danu01_LiveCtn
+- name: danu01_LiveCtnBU
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danu03_LiveCtn
+- name: danu03_LiveCtnBU
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danu05_LiveCtn
+- name: danu05_LiveCtnBU
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -38,7 +38,59 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danu15_LiveDo
+- name: danu07_LiveCthBU
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 903f3018-7c57-4658-9e04-f59bc7210cb2
+  udp: true
+  sni: sg-cth.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-cth.sshpremium.my.id
+- name: danu09_LiveCthBU
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 9afe2de2-b910-4879-ac4e-b15acf3345e0
+  udp: true
+  sni: sg-cth.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-cth.sshpremium.my.id
+- name: danu11_LiveIKDBU
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 81b6c9dc-a684-4a89-9b99-2a8918733000
+  udp: true
+  sni: ikd.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ikd.sshpremium.my.id
+- name: danu13_LiveCthBU
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 1789410a-eede-4fbd-af1d-abc2f65fe3b5
+  udp: true
+  sni: sg-cth.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-cth.sshpremium.my.id
+- name: danu15_LiveDoBU
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -51,7 +103,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
-- name: danu17_LiveDo
+- name: danu17_LiveDoBU
   type: trojan
   server: beacon.liveon.id
   port: 443
