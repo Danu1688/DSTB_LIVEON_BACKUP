@@ -116,3 +116,16 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
+- name: danu19_LiveDoBU
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 46d3a184-06f4-44fd-beb0-f89066899b26
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id
