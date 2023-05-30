@@ -168,3 +168,16 @@ proxies:
     path: "/trojanws"
     headers:
       Host: do.sshpremium.my.id
+- name: danu27_LiveCtnBUa
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: f5989f34-bc03-4d89-ab3f-471ea585f98f
+  udp: true
+  sni: ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ctn.sshpremium.my.id
