@@ -1,4 +1,199 @@
 proxies:
+- name: danu01_LiveDO01BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 63d17542-dee3-47a8-9639-0d34d9ef8d87
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu03_LiveDO03BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: e4b00613-d17c-47f9-ada4-3a1292c2744e
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu05_LiveDO05BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: c309e5ea-3c6a-48ee-9462-dd16d55ae44e
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu07_LiveDO07BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: efb7f2b2-fcbf-4b61-b48f-f6c3af5c6060
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu09_LiveDO09BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 02d390f0-d3c2-40d7-af6b-1b56ed88fac2
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu11_LiveDO11BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 0fee1504-63ce-41e3-8761-290f34538c5c
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu13_LiveDO13BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: c5beccae-27e0-4f8a-bd1b-0785890c9aea
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu15_LiveDO15BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: c29c6a06-5f46-40eb-b816-801e8498b55f
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu17_LiveDO17BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 74010ea9-cdb7-472b-80a4-11bf787f894b
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu19_LiveDO19BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: be388938-4402-4d11-9786-e164b1e04ec1
+  udp: true
+  sni: do2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2.myserver-prem.cloud
+- name: danu21_LiveDo21BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 7c5f4e2b-91dd-4366-938c-b3159ab8ec5d
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id
+- name: danu23_LiveDo23BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: d9f12312-fcf2-4042-9bce-5f9cb395c062
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id
+- name: danu25_LiveDo25BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 0652b917-f0ed-41c4-ac9c-8c1cadd6dca2
+  udp: true
+  sni: do.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: do.sshpremium.my.id
+- name: danu27_LiveCtn27BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: f5989f34-bc03-4d89-ab3f-471ea585f98f
+  udp: true
+  sni: ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ctn.sshpremium.my.id
+- name: danu29_LiveCtn29BU
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: dc855ce2-14d1-4ab2-9452-c29b64fdfc14
+  udp: true
+  sni: ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ctn.sshpremium.my.id
 - name: danu01_LiveCtnBUa
   type: trojan
   server: 104.21.8.121
