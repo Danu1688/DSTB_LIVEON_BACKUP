@@ -1,5 +1,5 @@
 proxies:
-- name: Danu23_LiveMlbiBU
+- name: Danu23_LiveMlbiBUa
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -12,8 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth2
-- name: Danu23_LiveMlbiBU
+- name: Danu23_LiveMlbiBUb
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -26,8 +25,7 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth2
-- name: Danu23_LiveMlbiBU
+- name: Danu23_LiveMlbiBUc
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -40,7 +38,6 @@ proxies:
     path: /trojan
     headers:
       Host: melbi2.myserver-prem.cloud
-  interface-name: eth2
 - name: danu01_LiveDO01BU
   type: trojan
   server: 104.21.8.121
