@@ -194,19 +194,6 @@ proxies:
     path: /trojan
     headers:
       Host: nata1.myserver-prem.cloud
-- name: Danu30_LiveNusaBU
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: ddd9da3d-b28f-4243-b395-f44fca350209
-  udp: true
-  sni: nusa1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: nusa1.myserver-prem.cloud
 - name: Danu31_LiveNusaBU
   type: trojan
   server: 104.21.8.121
