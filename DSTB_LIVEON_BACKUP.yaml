@@ -181,19 +181,19 @@ proxies:
     path: /trojan
     headers:
       Host: herza2.myserver-prem.cloud
-- name: Danu29_LiveNataBU
+- name: Danu29_LiveBiznetBU
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 3f65f35f-2d2f-4a1d-979c-7840b8999362
+  password: fa574d6f-bc4d-41c4-a960-348e15888809
   udp: true
-  sni: nata1.myserver-prem.cloud
+  sni: biznet2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nata1.myserver-prem.cloud
+      Host: biznet2.myserver-prem.cloud
 - name: Danu31_LiveNusaBU
   type: trojan
   server: 104.21.8.121
@@ -233,19 +233,19 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
-- name: Danu37_LiveNataBU
+- name: Danu37_LiveBiznetBU
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 38e2ac25-e775-43af-a577-e66c2b607c87
+  password: 881f183c-d751-4c8c-9f5b-3f01d586197b
   udp: true
-  sni: nata1.myserver-prem.cloud
+  sni: biznet2.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nata1.myserver-prem.cloud
+      Host: biznet2.myserver-prem.cloud
 - name: Danu39_LiveHerzaBU
   type: trojan
   server: 104.21.8.121
