@@ -12,19 +12,6 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-- name: DanuTelkom01_LiveBU
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 3052add3-160a-437c-ad4d-c3a043e71258
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
 - name: danu03_LiveDO03BU
   type: trojan
   server: 104.21.8.121
@@ -38,19 +25,6 @@ proxies:
     path: /trojan
     headers:
       Host: do2.myserver-prem.cloud
-- name: DanuTelkom03_LiveBU
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 39b0620e-561c-403b-9757-6bd76ec7ea72
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
 - name: danu05_LiveDO05BU
   type: trojan
   server: 104.21.8.121
@@ -233,19 +207,6 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
-- name: DanuTelkom31_LiveBU
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
 - name: Danu33_LiveHerzaBU
   type: trojan
   server: 104.21.8.121
@@ -259,19 +220,6 @@ proxies:
     path: /trojan
     headers:
       Host: herza2.myserver-prem.cloud
-- name: DanuTelkom33_LiveBU
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 30b1645d-af06-4ccf-a478-2b7a9ff3210d
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
 - name: Danu35_LiveNusaBU
   type: trojan
   server: 104.21.8.121
