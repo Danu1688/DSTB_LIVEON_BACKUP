@@ -1,7 +1,7 @@
 proxies:
 - name: DSTB1Test_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 6640d3d3-65a8-40a3-a749-ddb8768c200c
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: sgdo2.myserver-prem.xyz
 - name: DSTB2Test_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 6eaad185-5479-43dc-819e-3c2ef4d30dcd
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: sgdo2.myserver-prem.xyz
 - name: DSTB3Vmess_LiveDO_1
   type: vmess
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   uuid: bc232c66-1f73-4732-b258-4652f137f0b0
   alterId: 0
@@ -43,7 +43,7 @@ proxies:
       Host: sgdo2.myserver-prem.xyz
 - name: DSTB4Trojan_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: f6d13644-4290-44f8-9139-3a9d7e2e5af3
   udp: true
