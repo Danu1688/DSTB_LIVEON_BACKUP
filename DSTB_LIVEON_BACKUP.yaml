@@ -1,4 +1,88 @@
 proxies:
+- name: DanuNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 55349efa-6b40-4225-9158-946a3e3e07eb
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
+- name: DanuRmWeb_LiveRmWeb_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
+  udp: true
+  sni: vpnrdfs1ov.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpnrdfs1ov.scpotato.me
+- name: DanuBiznet_LiveBiznet_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 4c30305c-4da0-4ca7-96e3-88bd26a5c7b9
+  udp: true
+  sni: vpn46tnyyt.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpn46tnyyt.scpotato.me
+- name: DanuVmessTLS-LIVE-DO_1
+  type: vmess
+  server: circles.asia
+  port: 443
+  uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: danu529.foryou-ssh.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: danu529.foryou-ssh.my.id
+- name: DanuVmessNTLS-LIVE-DO_1
+  type: vmess
+  server: circles.asia
+  port: 80
+  uuid: 69567ec0-de1d-4f9f-9332-8505c5c1bdfb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  servername: danu529.foryou-ssh.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: danu529.foryou-ssh.my.id
+- name: DanuDstbSvr1_LiveDO_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 8043a1f2-43be-4e9c-b493-e3afdec54da8
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
 - name: DSTB1Test_LiveDO_1
   type: trojan
   server: circles.asia
