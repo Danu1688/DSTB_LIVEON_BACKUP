@@ -70,11 +70,11 @@ proxies:
     path: /vmess
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: DanuDstbSvr1_LiveDO_1
+- name: DstbBackupSvr01_LiveDO_1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.21.8.121
   port: 443
-  password: 8043a1f2-43be-4e9c-b493-e3afdec54da8
+  password: ac6e2219-e937-4f78-b836-a92f1efc6a3b
   udp: true
   sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
