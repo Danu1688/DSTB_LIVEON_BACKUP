@@ -1,5 +1,70 @@
 proxies:
-- name: DanuNusa_LiveNusa_1
+- name: SeverDo2_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SeverDo2_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SeverDo2_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SeverDo2_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SeverDo2_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: DanuNusa_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -12,7 +77,7 @@ proxies:
     path: /trojan
     headers:
       Host: vpna4mvbhv.scpotato.me
-- name: DanuRmWeb_LiveRmWeb_1
+- name: DanuRmWeb_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -25,20 +90,7 @@ proxies:
     path: /trojan
     headers:
       Host: vpnrdfs1ov.scpotato.me
-- name: DanuBiznet_LiveBiznet_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 4c30305c-4da0-4ca7-96e3-88bd26a5c7b9
-  udp: true
-  sni: vpn46tnyyt.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpn46tnyyt.scpotato.me
-- name: DstbBackupSvr01_LiveDO_1
+- name: DstbBackupDo1B_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -51,7 +103,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: DanuVmessTLS-LIVE-DO_1
+- name: DanuVmessTLSDo1A_Live_H1
   type: vmess
   server: circles.asia
   port: 443
@@ -67,7 +119,7 @@ proxies:
     path: /vmess
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: DanuVmessNTLS-LIVE-DO_1
+- name: DanuVmessNTLSDo1A_Live_H1
   type: vmess
   server: circles.asia
   port: 80
@@ -83,7 +135,7 @@ proxies:
     path: /vmess
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: DSTB1Test_LiveDO_1
+- name: DSTB1TestDo1B_Live_H2
   type: trojan
   server: circles.asia
   port: 443
@@ -96,7 +148,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: DSTB2Test_LiveDO_1
+- name: DSTB2TestDo1B_Live_H2
   type: trojan
   server: circles.asia
   port: 443
@@ -109,7 +161,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: DSTB3Vmess_LiveDO_1
+- name: DSTB3VmessDo1B_Live_H2
   type: vmess
   server: circles.asia
   port: 443
@@ -125,7 +177,7 @@ proxies:
     path: /xrayvws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: DSTB4Trojan_LiveDO_1
+- name: DSTB4TrojanDo1B_Live_H2
   type: trojan
   server: circles.asia
   port: 443
