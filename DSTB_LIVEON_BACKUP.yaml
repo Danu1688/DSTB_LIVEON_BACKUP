@@ -190,4 +190,29 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-
+- name: TrojanGoDo1C-Live_IP1
+  server: 104.17.224.203
+  port: 8443
+  type: trojan
+  password: TrojanGoTest
+  network: ws
+  sni: sgdo3.dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: sgdo3.dstb.cloud
+- name: TrojanWsDo1C-Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
+  udp: true
+  sni: sgdo3.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo3.dstb.cloud
