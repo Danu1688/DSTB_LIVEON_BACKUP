@@ -77,19 +77,6 @@ proxies:
     path: /trojan
     headers:
       Host: vpna4mvbhv.scpotato.me
-- name: DanuRmWeb_Live_H2
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
-  udp: true
-  sni: vpnrdfs1ov.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpnrdfs1ov.scpotato.me
 - name: DstbBackupDo1B_Live_H2
   type: trojan
   server: beacon.liveon.id
