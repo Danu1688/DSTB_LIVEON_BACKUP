@@ -64,19 +64,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-- name: DanuNusa_Live_H2
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 55349efa-6b40-4225-9158-946a3e3e07eb
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
 - name: DstbBackupDo1B_Live_H2
   type: trojan
   server: beacon.liveon.id
