@@ -1,17 +1,17 @@
 proxies:
-- name: DanuDstbDo1A_Live_H1
+- name: LikKuatDo1B_Live_H1
   type: trojan
   server: circles.asia
   port: 443
-  password: 8043a1f2-43be-4e9c-b493-e3afdec54da8
+  password: 0b671048-ad5e-4f40-807e-6240e934f516
   udp: true
-  sni: danu529.foryou-ssh.my.id
+  sni: sgdo2.myserver-prem.xyz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /xraytrojanws
     headers:
-      Host: danu529.foryou-ssh.my.id
+      Host: sgdo2.myserver-prem.xyz
 - name: TrojanWsDo1C-Live_H1
   type: trojan
   server: circles.asia
