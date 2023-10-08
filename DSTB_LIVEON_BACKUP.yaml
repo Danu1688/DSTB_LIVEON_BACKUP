@@ -1,72 +1,46 @@
 proxies:
-- name: SeverDo2_Live_IP1
+- name: DanuDstbDo1A_Live_H1
   type: trojan
-  server: 104.17.224.203
+  server: circles.asia
   port: 443
-  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  password: 8043a1f2-43be-4e9c-b493-e3afdec54da8
   udp: true
-  sni: dstb.cloud
+  sni: danu529.foryou-ssh.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: dstb.cloud
-- name: SeverDo2_Live_IP2
+      Host: danu529.foryou-ssh.my.id
+- name: TrojanWsDo1C-Live_H1
   type: trojan
-  server: 104.16.143.190
+  server: circles.asia
   port: 443
-  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
   udp: true
-  sni: dstb.cloud
+  sni: sgdo3.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: dstb.cloud
-- name: SeverDo2_Live_IP3
-  type: trojan
-  server: 172.67.75.37
-  port: 443
-  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SeverDo2_Live_IP4
-  type: trojan
-  server: 104.26.15.208
-  port: 443
-  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: SeverDo2_Live_IP5
-  type: trojan
-  server: 104.26.14.208
-  port: 443
-  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
-  udp: true
-  sni: dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: dstb.cloud
-- name: DstbBackupDo1B_Live_H2
+      Host: sgdo3.dstb.cloud
+- name: DanuBackup_LiveDOc
   type: trojan
   server: beacon.liveon.id
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
+- name: DstbBackupDo1A_Live_H1
+  type: trojan
+  server: circles.asia
   port: 443
   password: ac6e2219-e937-4f78-b836-a92f1efc6a3b
   udp: true
