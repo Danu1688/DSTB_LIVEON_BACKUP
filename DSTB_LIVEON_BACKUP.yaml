@@ -181,16 +181,16 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: DanuBackup_LiveDOc
+- name: Akamai3bln_Live_H1
   type: trojan
-  server: beacon.liveon.id
+  server: circles.asia
   port: 443
-  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  password: bd1483b2-bd25-45f7-ab19-52ca725eb0d7
   udp: true
-  sni: do-2device.myserver-prem.cloud
+  sni: akamai.inject.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojanws
     headers:
-      Host: do-2device.myserver-prem.cloud
+      Host: akamai.inject.my.id
