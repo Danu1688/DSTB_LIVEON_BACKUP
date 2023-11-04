@@ -181,16 +181,3 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: Akamai3bln_Live_H1
-  type: trojan
-  server: circles.asia
-  port: 443
-  password: bd1483b2-bd25-45f7-ab19-52ca725eb0d7
-  udp: true
-  sni: akamai.inject.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojanws
-    headers:
-      Host: akamai.inject.my.id
