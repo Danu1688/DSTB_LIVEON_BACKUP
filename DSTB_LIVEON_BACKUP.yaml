@@ -1,5 +1,5 @@
 proxies:
-- name: ServerAkamai_Live_IP1
+- name: ServerAkamaiA_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: ServerAkamai_Live_IP2
+- name: ServerAkamaiA_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: ServerAkamai_Live_IP3
+- name: ServerAkamaiA_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
@@ -38,7 +38,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: ServerAkamai_Live_IP4
+- name: ServerAkamaiA_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
@@ -51,7 +51,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: ServerAkamai_Live_IP5
+- name: ServerAkamaiA_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
@@ -64,7 +64,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: ServerAkamai_Live_H1
+- name: ServerAkamaiA_Live_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -77,7 +77,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: ServerAkamai_Live_H2
+- name: ServerAkamaiA_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -90,97 +90,97 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: ServerSgAkamai_Live_IP1
+- name: ServerAkamaiB_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
-  password: 89886a3c-9444-4ae6-ba0b-d7e092191b3c
+  password: 028aedff-7513-4433-b367-6e1626154eea
   udp: true
-  sni: sg1-linode.dstb.cloud
+  sni: id2.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg1-linode.dstb.cloud
-- name: ServerSgAkamai_Live_IP2
+      Host: id2.dstb.cloud
+- name: ServerAkamaiB_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
-  password: 89886a3c-9444-4ae6-ba0b-d7e092191b3c
+  password: 028aedff-7513-4433-b367-6e1626154eea
   udp: true
-  sni: sg1-linode.dstb.cloud
+  sni: id2.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg1-linode.dstb.cloud
-- name: ServerSgAkamai_Live_IP3
+      Host: id2.dstb.cloud
+- name: ServerAkamaiB_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
-  password: 89886a3c-9444-4ae6-ba0b-d7e092191b3c
+  password: 028aedff-7513-4433-b367-6e1626154eea
   udp: true
-  sni: sg1-linode.dstb.cloud
+  sni: id2.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg1-linode.dstb.cloud
-- name: ServerSgAkamai_Live_IP4
+      Host: id2.dstb.cloud
+- name: ServerAkamaiB_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
-  password: 89886a3c-9444-4ae6-ba0b-d7e092191b3c
+  password: 028aedff-7513-4433-b367-6e1626154eea
   udp: true
-  sni: sg1-linode.dstb.cloud
+  sni: id2.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg1-linode.dstb.cloud
-- name: ServerSgAkamai_Live_IP5
+      Host: id2.dstb.cloud
+- name: ServerAkamaiB_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
-  password: 89886a3c-9444-4ae6-ba0b-d7e092191b3c
+  password: 028aedff-7513-4433-b367-6e1626154eea
   udp: true
-  sni: sg1-linode.dstb.cloud
+  sni: id2.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg1-linode.dstb.cloud
-- name: ServerSgAkamai_Live_H1
+      Host: id2.dstb.cloud
+- name: ServerAkamaiB_Live_H1
   type: trojan
   server: circles.asia
   port: 443
-  password: 89886a3c-9444-4ae6-ba0b-d7e092191b3c
+  password: 028aedff-7513-4433-b367-6e1626154eea
   udp: true
-  sni: sg1-linode.dstb.cloud
+  sni: id2.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg1-linode.dstb.cloud
-- name: ServerSgAkamai_Live_H2
+      Host: id2.dstb.cloud
+- name: ServerAkamaiB_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: 89886a3c-9444-4ae6-ba0b-d7e092191b3c
+  password: 028aedff-7513-4433-b367-6e1626154eea
   udp: true
-  sni: sg1-linode.dstb.cloud
+  sni: id2.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg1-linode.dstb.cloud
+      Host: id2.dstb.cloud
 - name: SeverDo2_Live_IP1
   type: trojan
   server: 104.17.224.203
