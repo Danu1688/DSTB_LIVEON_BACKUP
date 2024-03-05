@@ -129,9 +129,9 @@ proxies:
     path: /trojan
     headers:
       Host: id3.myserver-prem.xyz
-- name: SvrNusa51_Vision_IP1
+- name: SvrNusa51_UnliTurbo_IP1
   type: trojan
-  server: 104.18.225.52
+  server: 104.18.53.172
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
@@ -181,9 +181,9 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
-- name: SvrNusa51_UnliTurbo_IP1
+- name: SvrNusa51_Vision_IP1
   type: trojan
-  server: 104.18.53.172
+  server: 104.18.225.52
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
@@ -194,3 +194,4 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
+      
