@@ -261,7 +261,33 @@ proxies:
       Host: nusa.dstb.cloud
 - name: SvrNusa51_Flex_H3
   type: trojan
-  server: www.genflix.com
+  server: bill.neowiz.com
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Flex_H4
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Flex_H5
+  type: trojan
+  server: support.line2.com
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
@@ -275,19 +301,6 @@ proxies:
 - name: SvrNusa51_Vision_IP1
   type: trojan
   server: 104.18.225.52
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Vision_H1
-  type: trojan
-  server: sindo.visionplus.id
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
