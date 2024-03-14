@@ -285,4 +285,17 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa.dstb.cloud
+- name: SvrNusa51_Vision_H1
+  type: trojan
+  server: sindo.visionplus.id
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
       
