@@ -103,6 +103,58 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
+- name: SvrDSTB_DO_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SvrDSTB_DO_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 8ea3c1a3-6e46-4736-b692-a82df9c404b9
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
 - name: SvrAtha51_UnliTurbo_IP1
   type: trojan
   server: 104.18.53.172
@@ -207,6 +259,58 @@ proxies:
     path: /trojan
     headers:
       Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
+- name: SvrAtha51_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 2107e838-6b38-4ab7-b08d-400f16b1d2b4
+  udp: true
+  sni: id3.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id3.myserver-prem.xyz
 - name: SvrNusa51_UnliTurbo_IP1
   type: trojan
   server: 104.18.53.172
@@ -301,6 +405,58 @@ proxies:
 - name: SvrNusa51_Vision_IP1
   type: trojan
   server: 104.18.225.52
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: SvrNusa51_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
