@@ -547,33 +547,7 @@ proxies:
       Host: nusa.dstb.cloud
 - name: SvrNusa51_Conv_H2
   type: trojan
-  server: zoomappdocs.zoom.us
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Conv_H3
-  type: trojan
   server: chat.sociomile.com
-  port: 443
-  password: 63780723-758c-4456-bc8e-13795525fb8a
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Conv_H4
-  type: trojan
-  server: source.zoom.us
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
