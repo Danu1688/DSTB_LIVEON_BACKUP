@@ -533,69 +533,74 @@ proxies:
     headers:
       Host: tv.iflix.com
   allowInsecure: true
-- name: SvrNusa51_Iflix_H2
+- name: SvrNusa51_Iflix_SNI2
   type: trojan
-  server: upload.iflix.com
+  server: nusa.dstb.cloud
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
-  sni: nusa.dstb.cloud
+  sni: upload.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Iflix_H3
+      Host: upload.iflix.com
+  allowInsecure: true
+- name: SvrNusa51_Iflix_SNI3
   type: trojan
-  server: live.iflix.com
+  server: nusa.dstb.cloud
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
-  sni: nusa.dstb.cloud
+  sni: live.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Iflix_H4
+      Host: live.iflix.com
+  allowInsecure: true
+- name: SvrNusa51_Iflix_SNI4
   type: trojan
-  server: access.iflix.com
+  server: nusa.dstb.cloud
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
-  sni: nusa.dstb.cloud
+  sni: access.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Iflix_H5
+      Host: access.iflix.com
+  allowInsecure: true
+- name: SvrNusa51_Iflix_SNI5
   type: trojan
-  server: vplay.iflix.com
+  server: nusa.dstb.cloud
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
-  sni: nusa.dstb.cloud
+  sni: vplay.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.dstb.cloud
-- name: SvrNusa51_Iflix_H6
+      Host: vplay.iflix.com
+  allowInsecure: true
+- name: SvrNusa51_Iflix_SNI6
   type: trojan
-  server: hwvip.iflix.com
+  server: nusa.dstb.cloud
   port: 443
   password: 63780723-758c-4456-bc8e-13795525fb8a
   udp: true
-  sni: nusa.dstb.cloud
+  sni: hwvip.iflix.com
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.dstb.cloud
+      Host: hwvip.iflix.com
+  allowInsecure: true
       
