@@ -277,7 +277,7 @@ proxies:
     headers:
       Host: vplay.iflix.com
   allowInsecure: true
-- name: SvrDSTB_DO_Iflix_SNI1
+- name: SvrDSTB_DO_Iflix_SNI6
   type: trojan
   server: dstb.cloud
   port: 443
